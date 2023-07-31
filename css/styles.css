@@ -39,6 +39,7 @@ body {
   text-decoration: none;
 }
 
+/* Contacts focus */
 li a:hover {
   color: var(--ocean-color);
   text-decoration: none;
@@ -49,9 +50,32 @@ li a:active {
   text-decoration: none;
 }
 
-button {
-  font-family: inherit;
+/* Hero button */
+.hero-button:hover {
+  background: var(--ocean-color);
 }
+
+.hero-button:active {
+  background: var(--ocean-color);
+}
+
+/* Portfolio button */
+.filter-button:hover {
+  background-color: var(--ocean-color);
+}
+
+.filter-button-text:hover {
+  color: var(--primary-color);
+}
+
+.filter-button:active {
+  background-color: var(--ocean-color);
+}
+
+.filter-button-text:active {
+  color: var(--primary-color);
+}
+
 /**
   |============================
   | Header styles
