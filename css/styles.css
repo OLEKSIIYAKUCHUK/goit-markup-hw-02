@@ -44,14 +44,22 @@ body {
 }
 
 /* Contacts focus */
-li a:hover {
+.header-list:hover {
   color: var(--ocean-color);
   text-decoration: none;
 }
 
-li a:active {
+.header-list:active {
   color: var(--ocean-color);
   text-decoration: none;
+}
+
+.header-contacts-list:hover {
+  color: var(--ocean-color);
+}
+
+.header-contacts-list:active {
+  color: var(--ocean-color);
 }
 
 /* Hero button */
@@ -155,7 +163,7 @@ li a:active {
   background: var(--iris-color);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04em
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
