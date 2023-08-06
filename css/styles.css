@@ -76,7 +76,7 @@ body {
 /* Portfolio button */
 .filter-button:hover,
 .filter-button:focus {
-  color: var(--white-color)
+  color: var(--white-color);
   background-color: var(--ocean-color);
 }
 
