@@ -44,17 +44,18 @@ body {
 }
 
 /* Contacts focus */
-.header-list:hover {
+.header-list .link:hover,
+.header-list .link:focus {
   color: var(--ocean-color);
   text-decoration: none;
 }
 
 .header-list:active {
   color: var(--ocean-color);
-  text-decoration: none;
 }
 
-.header-contacts-list:hover {
+.header-contacts-list .link:hover,
+.header-contacts-list .link:focus {
   color: var(--ocean-color);
 }
 
@@ -63,7 +64,8 @@ body {
 }
 
 /* Hero button */
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
   background-color: var(--ocean-color);
 }
 
@@ -160,15 +162,12 @@ body {
 }
 
 .hero-button {
+  color: var(--white-color);
   background: var(--iris-color);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-}
-
-.hero-button-text {
-  color: var(--white-color);
 }
 
 /**
